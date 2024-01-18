@@ -1,4 +1,6 @@
 #include "monty.h"
+#include <stdio.h>
+
 stack_t *global_current_stack;
 instruction_t *instruction;
 /**
