@@ -1,5 +1,9 @@
 #include "monty.h"
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdbool.h>
+#include <ctype.h>
 
 stack_t *global_current_stack;
 instruction_t *instruction;
